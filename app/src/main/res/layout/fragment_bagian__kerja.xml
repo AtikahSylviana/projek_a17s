@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.Bagian_Kerja">
+    <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent">
+            <LinearLayout
+                android:id="@+id/kotak"
+                android:orientation="vertical"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:background="#7BCAEF"
+                android:layout_margin="@dimen/_17sdp"
+                app:layout_constraintRight_toRightOf="parent"
+                app:layout_constraintBottom_toBottomOf="parent">
+
+                <TextView
+                    android:id="@+id/txtBagiankerja"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:layout_marginTop="@dimen/_20sdp"
+                    android:text="Bagian Kerja"
+                    android:layout_gravity="center"
+                    android:textSize="@dimen/_25sdp"
+                    android:textStyle="bold"
+                    android:layout_marginBottom="@dimen/_20sdp"/>
+                    <androidx.recyclerview.widget.RecyclerView
+                        android:id="@+id/listkerja"
+                        tools:listitem="@layout/adapter_bagian_kerja"
+                        android:layout_width="match_parent"
+                        android:layout_height="match_parent"
+                        app:layoutManager="androidx.recyclerview.widget.LinearLayoutManager"
+                        android:layout_marginHorizontal="@dimen/_27sdp"
+                        android:layout_marginBottom="@dimen/_30sdp"
+                        >
+                    </androidx.recyclerview.widget.RecyclerView>
+            </LinearLayout>
+            <com.google.android.material.floatingactionbutton.FloatingActionButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/btnTmbahkerja"
+                android:src="@drawable/tambah"
+                app:tint="@color/purple_500"
+                android:backgroundTint="@color/white"
+                android:layout_margin="@dimen/_7sdp"
+                app:layout_constraintEnd_toEndOf="@id/kotak"
+                app:layout_constraintBottom_toBottomOf="@id/kotak"
+                />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+
+</FrameLayout>

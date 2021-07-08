@@ -1,0 +1,155 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.karyawan.DetailKaryawan">
+
+    <!-- TODO: Update blank fragment layout -->
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7BCAEF"
+        android:layout_margin="@dimen/_17sdp">
+
+        <TextView
+            android:id="@+id/txtDetailkaryawan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="Detail Karyawan"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_25sdp"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/_20sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            android:text="Nama Karyawan"
+            android:layout_gravity="left"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            app:cardCornerRadius="@dimen/_7sdp"
+            app:strokeColor="#C8699CFC"
+            android:backgroundTint="#B2FFFFFF"
+            app:strokeWidth="@dimen/_3sdp">
+            <TextView
+                android:id="@+id/txtNamakaryawan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:padding="@dimen/_6sdp"
+                android:text="Nama Karyawan"
+                android:textStyle="bold"
+                android:textSize="19dp" />
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            android:text="Alamat"
+            android:layout_gravity="left"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            app:cardCornerRadius="@dimen/_7sdp"
+            app:strokeColor="#C8699CFC"
+            android:backgroundTint="#B2FFFFFF"
+            app:strokeWidth="@dimen/_3sdp">
+            <TextView
+                android:id="@+id/txtAlamatkaryawan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:padding="@dimen/_6sdp"
+                android:text="Alamat Karyawan"
+                android:textStyle="bold"
+                android:textSize="19dp" />
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            android:text="Nomor Whatsapp"
+            android:layout_gravity="left"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            app:cardCornerRadius="@dimen/_7sdp"
+            app:strokeColor="#C8699CFC"
+            android:backgroundTint="#B2FFFFFF"            app:strokeWidth="@dimen/_3sdp">
+            <TextView
+                android:id="@+id/txtwhatsappkaryawan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:padding="@dimen/_6sdp"
+                android:text="Nomor Whatsapp "
+                android:textStyle="bold"
+                android:textSize="19dp" />
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            android:text="Bagian Kerja"
+            android:layout_gravity="left"
+            android:textSize="18dp"
+            android:textStyle="bold"/>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            app:cardCornerRadius="@dimen/_7sdp"
+            app:strokeColor="#C8699CFC"
+            android:backgroundTint="#B2FFFFFF"
+            app:strokeWidth="@dimen/_3sdp">
+            <TextView
+                android:id="@+id/txtbagiankerjakaryawan"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:padding="@dimen/_6sdp"
+                android:text="Bagian Kerja"
+                android:textStyle="bold"
+                android:textSize="19dp" />
+        </com.google.android.material.card.MaterialCardView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_7sdp"
+            android:text="Edit Data"
+            android:id="@+id/btnEditKaryawan"
+            android:textStyle="bold">
+        </Button>
+
+    </LinearLayout>
+</FrameLayout>

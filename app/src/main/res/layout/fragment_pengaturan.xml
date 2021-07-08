@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.Pengaturan">
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7BCAEF"
+        android:layout_margin="@dimen/_17sdp">
+
+        <TextView
+            android:id="@+id/txtPengaturan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="Pengaturan"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_25sdp"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/_20sdp"/>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            android:text="Ganti Password"
+            android:id="@+id/btnGantipwd"
+            android:textStyle="bold">
+        </Button>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            android:id="@+id/btnLogout"
+            android:text="Logout"
+            android:textStyle="bold">
+        </Button>
+
+    </LinearLayout>
+
+</FrameLayout>

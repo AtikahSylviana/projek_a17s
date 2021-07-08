@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+    <group
+        android:id="@+id/grp_1"
+        android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_beranda"
+            android:icon="@drawable/beranda"
+            android:title="Beranda" />
+        <item
+            android:id="@+id/nav_karyawan"
+            android:icon="@drawable/karyawan"
+            android:title="Karyawan" />
+        <item
+            android:id="@+id/nav_bagian_kerja"
+            android:icon="@drawable/bagian_kerja"
+            android:title="Bagian kerja" />
+        <item
+            android:id="@+id/nav_absensi"
+            android:icon="@drawable/absensi"
+            android:title="Absensi" />
+        <item
+            android:id="@+id/nav_gaji"
+            android:icon="@drawable/gaji"
+            android:title="Gaji" />
+        <item
+            android:id="@+id/nav_pengaturan"
+            android:icon="@drawable/pengaturan"
+            android:title="Pengaturan" />
+    </group>
+</menu>

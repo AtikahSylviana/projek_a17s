@@ -1,0 +1,93 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context=".activity.kerja.Edit_Kerja">
+    <LinearLayout
+
+        android:orientation="vertical"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:background="#7BCAEF"
+        android:layout_margin="@dimen/_17sdp">
+
+        <TextView
+            android:id="@+id/txtEditbagiankerja"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:text="Edit Bagian Kerja"
+            android:layout_gravity="center"
+            android:textSize="@dimen/_25sdp"
+            android:textStyle="bold"
+            android:layout_marginBottom="@dimen/_20sdp"/>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            android:text="Jenis Kerja"
+            android:layout_gravity="left"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            app:cardCornerRadius="@dimen/_7sdp"
+            app:strokeColor="#699CFC"
+            app:strokeWidth="@dimen/_3sdp">
+            <EditText
+                android:id="@+id/inputNamakerja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:hint="Masukan Nama Jenis Kerja"
+                android:inputType="text"
+                android:textSize="@dimen/_13sdp" />
+        </com.google.android.material.card.MaterialCardView>
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="@dimen/_20sdp"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            android:text="Upah Kerja Perhari"
+            android:layout_gravity="left"
+            android:textSize="20dp"
+            android:textStyle="bold"/>
+        <com.google.android.material.card.MaterialCardView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            app:cardCornerRadius="@dimen/_7sdp"
+            app:strokeColor="#699CFC"
+            app:strokeWidth="@dimen/_3sdp">
+            <EditText
+                android:id="@+id/inputUpahkerja"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/_10sdp"
+                android:hint="Masukan Jumlah Upah"
+                android:inputType="number"
+                android:textSize="@dimen/_13sdp" />
+        </com.google.android.material.card.MaterialCardView>
+        <Button
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:textSize="@dimen/_10sdp"
+            android:layout_marginHorizontal="@dimen/_27sdp"
+            android:layout_marginVertical="@dimen/_3sdp"
+            android:text="Simpan"
+            android:id="@+id/btnSimpanEditkerja"
+            android:textStyle="bold">
+        </Button>
+
+    </LinearLayout>
+
+</FrameLayout>
